@@ -1,0 +1,36 @@
+.return-button {
+    border: 0;
+    background: #4b84fe;
+    color: #fff;
+    width: auto;
+    height: 3.5em;
+    padding: 0 2.25em;
+    border-radius: 3.5em;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background-color 0.15s ease;
+  }
+  .return-button:hover {
+    background-color: #1861fe;
+  }
+.return-button:hover:active {
+    background-color: #0149e2;
+    transition: none;
+  }
+
+  .button-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .active {
+    display: block;
+    text-align: center;
+    color: red;
+  }
